@@ -36,3 +36,4 @@ var idd2 = 87
 console.log(idd1>idd2);
 
 console.log('---------------');
+
