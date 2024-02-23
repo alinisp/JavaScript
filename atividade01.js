@@ -37,3 +37,9 @@ console.log(idd1>idd2);
 
 console.log('---------------');
 
+var idd7 = 78 
+condition 
+
+console.log('---------------');
+
+console.log( 76 % 2 ==0);
