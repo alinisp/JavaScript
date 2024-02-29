@@ -4,8 +4,10 @@ console.log("Olá, meu nome é " +nome+" e eu tenho "+idade+" anos!");
 
 console.log('---------------');
 
-console.log('banana'.toUpperCase());
-console.log('BANANA'.toLowerCase());
+let texto = "JavaScript";
+
+let maiusculas = texto.toUpperCase();
+let minusculas = texto.toLowerCase();
 
 console.log('---------------');
 
@@ -37,9 +39,14 @@ console.log(idd1>idd2);
 
 console.log('---------------');
 
-var idd7 = 78 
-condition 
+let idade = 20;
+
+let statusMaioridade = (idade >= 18) ? "Maior de idade" : "Menor de idade";
+console.log(statusMaioridade);
 
 console.log('---------------');
 
-console.log( 76 % 2 ==0);
+let numero = 7;
+
+let parOuImpar = (numero % 2 === 0) ? "Par" : "Ímpar";
+console.log(parOuImpar);
