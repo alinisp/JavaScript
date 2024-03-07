@@ -19,3 +19,15 @@ let produtoEmbalado = {
     produto : (`O produto ${this.nome}, da categoria ${this.categoria}, pesando ${this.peso}kg, está à venda por R$ ${this.preco}. `),
 };
 produtoEmbalado.produto();
+
+console.log('------------------------');
+
+class Imóvel{
+    quartos;
+    tipo;
+    endereco;
+    exibirinformacoes() {
+        
+
+    }
+}
