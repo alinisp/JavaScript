@@ -1,24 +1,20 @@
 let apartamento = {
-    quartos : 2, 
-    tipo : "Apartamento",
-    endereco : "Avenida Principal, 456 - Centro",
-    andar:"7",
-    casa : function () {
-        console.log (`${this.tipo} com ${this.quartos} quartos, localizado no ${this.andar}° andar da ${this.endereco}.`)
-    },
-};
-apartamento.casa();
+    quartos: 2,
+    tipo: 'Apartamento',
+    endereco: 'Avenida Principal, 456 - Centro',
+    andar: 7
+}
+console.log(`${apartamento.tipo} com ${apartamento.quartos} quartos, localizado no ${apartamento.andar}º andar da ${apartamento.endereco}.`)
 
 console.log('------------------------');
 
 let produtoEmbalado = {
-    nome : "Laptop HP",
-    categoria : "Eletrônicos",
-    peso : 1.5,
-    preco : "3500.00",
-    produto : (`O produto ${this.nome}, da categoria ${this.categoria}, pesando ${this.peso}kg, está à venda por R$ ${this.preco}. `),
-};
-produtoEmbalado.produto();
+    nome: 'Laptop HP',
+    categoria: 'Eletrônicos',
+    peso: 1.5,
+    preco: 3500.00
+}
+console.log(`O produto ${produtoEmbalado.nome}, da categoria ${produtoEmbalado.categoria}, pesando ${produtoEmbalado.peso} kg, está à venda por ${produtoEmbalado.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}.`);
 
 console.log('------------------------');
 

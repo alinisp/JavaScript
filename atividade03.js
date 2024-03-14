@@ -29,7 +29,7 @@ switch (dias) {
         break;
 }
 
-console.log('------------------------');
+console.log('--------------------------------------------');
 
 let mes= ds.questionInt('Digite o mes:');
 
@@ -75,7 +75,7 @@ switch (mes) {
         console.log("Inválido!")
         break;
 }
-console.log('------------------------');
+console.log('--------------------------------------------');
 
 let num1 = ds.questionInt("Numero 1:");
 let num2 = ds.questionInt("Numero 2:");
@@ -98,3 +98,4 @@ switch (calcular) {
         break;
 }
 
+console.log('--------------------------------------------');
