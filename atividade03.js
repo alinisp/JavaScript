@@ -77,21 +77,20 @@ switch (mes) {
 }
 console.log('------------------------');
 
-
+let num1 = ds.questionInt("Numero 1:");
+let num2 = ds.questionInt("Numero 2:");
 let calcular= ds.question('Qual operacao deseja usar:');
-let num1 = ds.question("Numero 1:");
-let num2 = ds.question("Numero 2:");
-switch (calcular, num1, num2) {
-    case adicao:
+switch (calcular) {
+    case 'adicao':
         console.log(num1+num2);
         break;
-    case subtracao:
+    case 'subtracao':
         console.log(num1-num2);
         break;
-    case multiplicacao:
+    case 'multiplicacao':
         console.log(num1*num2);
         break;
-    case Divisao:
+    case 'Divisao':
         console.log(num1/num2);
         break;
     default:
