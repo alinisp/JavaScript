@@ -97,3 +97,4 @@ switch (calcular) {
         ("Inválido")
         break;
 }
+
