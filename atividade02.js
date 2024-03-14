@@ -22,12 +22,38 @@ produtoEmbalado.produto();
 
 console.log('------------------------');
 
-class Imóvel{
-    quartos;
-    tipo;
-    endereco;
-    exibirinformacoes() {
-        
+class Imovel {
+    constructor(quartos, tipo, endereco) {
+        this.quartos = quartos;
+        this.tipo = tipo;
+        this.endereco = endereco;
+    }
 
+    exibirInformacoes() {
+        return `${this.tipo} com ${this.quartos} quartos, localizado na ${this.endereco}.`;
     }
 }
+
+const casa = new Imovel(4, "Casa", "Rua da Amizade, 789 - Bairro Alegre");
+console.log(casa.exibirInformacoes());
+
+const ap = new Imovel(2, "Apartamento", "Avenida da Paz, 123 - Centro");
+console.log(ap.exibirInformacoes());
+
+console.log('------------------------');
+
+class Veiculo {
+    constructor(marca, modelo, ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+    exibirDetalhes() {
+        return `Veículo: \n\tMarca: ${this.marca}\n\tModelo: ${this.modelo}\n\tAno: ${this.ano}`;
+    }
+}
+const carro = new Veiculo("Toyota", "Corolla", 2022);
+console.log(carro.exibirDetalhes());
+const moto = new Veiculo("Honda", "CBR 600RR", 2021);
+console.log(moto.exibirDetalhes());
