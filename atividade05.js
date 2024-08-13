@@ -17,8 +17,12 @@ function imPar(numero) {
 console.log(imPar(5));*/
 
 /*03. Crie uma função que receba dois números como
-parâmetros e retorne a soma deles.*/
+parâmetros e retorne a soma deles.
 function soma(numero1, numero2) {
     numero1 + numero2
 };
 console.log(soma(2, 5));
+
+var num;
+console.log(num+15);*/
+console.log(null === undefined);

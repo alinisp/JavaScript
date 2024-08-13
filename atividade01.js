@@ -1,5 +1,5 @@
 var nome = "Alini Perroni"
-var idade = "15"
+var idade = "16"
 console.log("Olá, meu nome é " +nome+" e eu tenho "+idade+" anos!");
 
 console.log('---------------');
